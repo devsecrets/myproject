@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+<!-- <div ng-app="" ng-init="que=5;cost=5">
+  <p>Name: <input type="text" ng-model="name"></p>
+  <p ng-bind="name"></p>
+  {{que * cost}}
+</div> -->
+
+<div ng-app="" ng-init="names=['Jani','Hege','Kai']">
+  <p>Contact page</p>
+  <ul>
+    <li ng-repeat="x in names">
+      {{ x }}
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>
